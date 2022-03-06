@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+header {
+    background-image: url("car-bg.jpg");
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
